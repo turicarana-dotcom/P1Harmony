@@ -8,13 +8,33 @@
     <style>
         html {overflow: auto;  background: url('pozadina.jpg') no-repeat center fixed; background-size: cover;}
         h1{color: #FF1493;position: absolute; bottom: 0; left: 0; width: 100%; text-align: center;font-size: 500%; font-family:Archivo Black ;text-shadow:3px 4px 10px white ;}
-        h2{color: white;position: absolute; bottom: 0; left: 0; width: 100%; text-align: center;font-size: 190%;background-color:#ff1491;}
+        h2{color: white;position: absolute; bottom: 0; left: 0; width: 100%; text-align: center;font-size: 190%;background-color:#ff1492;}
         p {text-align:center; font-size:110%;padding: auto;line-height: 1.6; color: white; font-weight: 700;letter-spacing: 2px}
+        .menu {position: fixed;top: 10px;left: 10px;}
+/* uklanja točkice sa <summary> */
+        summary {list-style: none;cursor: pointer;}
+/* slika koja služi kao gumb */
+        summary img {width: 60px;height: 60px;border-radius: 60%;}
+/* okvir menija */
+        details ul {margin: 8x 0 0;padding: 10px;background: rgba(255, 255, 255, 0.862);border:none; border-radius: 4px; list-style-type: none}
+        details ul li {margin: 6px 0;}
+        li a {display:block; color: #FF1493;text-decoration: none;font-size:140%}
     </style>
 </head>
 <body>
     <h1>P1HARMONY</h1>
     <h2>vodič za početnike</h2>
-    <p>⋆˙⟡ postani i ti <b style="color: #ff1491;">P1ece</b> ✧˖°.</p>
+    <p>⋆˙⟡ postani i ti <b style="color: #ff1493;">P1ece</b> ✧˖°.</p>
+    <div class="menu">
+        <details>
+            <summary>
+                <img src="P1H.jpg" alt="Izbornik">
+            </summary>
+        <ul>
+            <li><a href="https://www.youtube.com/channel/UCe-XzQhLaq4zS_mPXzuc_2Q" target="_blank">YouTube kanal</a></li>
+            <li><a href="https://www.instagram.com/p1h_official/?hl=en" target="_blank">Instagram</a></li>
+        </ul>
+        </details>
+    </div>
 </body>
 </html>
